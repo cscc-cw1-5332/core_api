@@ -1,5 +1,5 @@
 version: 0.0
-os: OS type
+os: linux
 files:
   - source: \
     destination: destination
@@ -15,6 +15,3 @@ hooks:
           # because we are deploying as EC/On-Premises so we only write one hook
  # ApplicationStart: you can leave blank, cuz I said it on hooks secion(lol), this command means it starts
                     #deployment lifecycle event to restart cuz services tend to be stopped during ApplicationStop
-
-Have a Wondurful day, I hope I helped.
-@rasulkamolov - RasSoft
