@@ -1,0 +1,20 @@
+version: 0.0
+os: OS type
+files:
+  - source: \
+    destination: destination
+hooks:
+ ApplicationStart:
+
+
+ # os: OS type > you should write your deploying OS type i.e linux, windows
+ # files: - the path to files
+ # -source: you can state your source file location, or you can leave it as blank i.e /
+ # destination: the destination path that will be stored on i.e /www/dotnet/webap
+ # hook: - you will not use this section and can leave it as blank, 
+          # because we are deploying as EC/On-Premises so we only write one hook
+ # ApplicationStart: you can leave blank, cuz I said it on hooks secion(lol), this command means it starts
+                    #deployment lifecycle event to restart cuz services tend to be stopped during ApplicationStop
+
+Have a Wondurful day, I hope I helped.
+@rasulkamolov - RasSoft
